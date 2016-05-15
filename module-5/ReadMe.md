@@ -1,0 +1,5 @@
+#Introduction
+
+Your map is about to become interactive! You are going to add functionality to your map so that additional information is displayed when the user hovers over or clicks on any marker with her/ his mouse. When she hovers over a city marker, your map will display a box with the city’s name, country, and population. When she hovers over an earthquake marker, your map will display the title of the earthquake (including its magnitude and region). Clicking on a marker gives even more information: A click on a city marker will lead to only that city and earthquakes which affect it being displayed on the map. Clicking once again on that marker will bring the rest of the map’s markers back. Similarly, after clicking on an earthquake marker, only cities potentially affected by that earthquake will be displayed. You’ll use event-driven programming to make this happen.
+
+To accomplish this you will need to override two methods, mouseClicked() and mouseMoved(). In both of the these methods you will need to make use of the isInside() method of the SimplePointMarker class, as well as the PApplet fields, mouseX and mouseY.
